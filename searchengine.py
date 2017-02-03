@@ -4,7 +4,7 @@ from urlparse import urljoin
 from pysqlite2 import dbapi2 as sqlite
 
 # Create a list of words to ignore
-ignorewords=set(['the','of','to','and','a','in','is','it'])
+ignorewords = set(['the', 'of', 'to', 'and', 'a', 'in', 'is', 'it'])
 
 class crawler:
     # Initialize the crawler with the name of database
@@ -24,7 +24,10 @@ class crawler:
     
     # Index an individual page
     def addtoindex(self,url,soup):
+        if self.isindexed(url): return
         print 'Indexing %s' % url
+        
+
     
     # Extract the text from an HTML page (no tags)
     def gettextonly(self,soup):
