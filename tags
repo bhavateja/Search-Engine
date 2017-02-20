@@ -4,15 +4,15 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-__del__	searchengine.py	/^    def __del__(self):$/;"	kind:member	line:15
-__init__	searchengine.py	/^    def __init__(self,dbname):$/;"	kind:member	line:12
+__del__	searchengine.py	/^    def __del__(self):$/;"	kind:member	line:14
+__init__	searchengine.py	/^    def __init__(self,dbname):$/;"	kind:member	line:11
 addlinkref	searchengine.py	/^    def addlinkref(self,urlFrom,urlTo,linkText):$/;"	kind:member	line:55
-addtoindex	searchengine.py	/^    def addtoindex(self,url,soup):$/;"	kind:member	line:27
+addtoindex	searchengine.py	/^    def addtoindex(self,url,soup):$/;"	kind:member	line:26
 crawl	searchengine.py	/^    def crawl(self,pages,depth=2):$/;"	kind:member	line:61
-crawler	searchengine.py	/^class crawler:$/;"	kind:class	line:10
+crawler	searchengine.py	/^class crawler:$/;"	kind:class	line:9
 createindextables	searchengine.py	/^    def createindextables(self):$/;"	kind:member	line:86
-dbcommit	searchengine.py	/^    def dbcommit(self):$/;"	kind:member	line:18
-getentryid	searchengine.py	/^    def getentryid(self,table,field,value,createnew=True):$/;"	kind:member	line:23
+dbcommit	searchengine.py	/^    def dbcommit(self):$/;"	kind:member	line:17
+getentryid	searchengine.py	/^    def getentryid(self,table,field,value,createnew=True):$/;"	kind:member	line:22
 gettextonly	searchengine.py	/^    def gettextonly(self,soup):$/;"	kind:member	line:33
 ignorewords	searchengine.py	/^ignorewords = set(['the', 'of', 'to', 'and', 'a', 'in', 'is', 'it'])$/;"	kind:variable	line:7
 isindexed	searchengine.py	/^    def isindexed(self,url):$/;"	kind:member	line:51
